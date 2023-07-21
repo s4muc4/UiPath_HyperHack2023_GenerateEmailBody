@@ -1,0 +1,53 @@
+{
+  "name": "Generate_Email_Body",
+  "projectId": "a72c3eae-c9d4-443c-a1ce-9a54393d6aee",
+  "description": "Generates the body of the email for each type of recipient.",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.OpenAI.IntegrationService.Activities": "6.1.0",
+    "UiPath.System.Activities": "23.6.0-preview",
+    "UiPath.Testing.Activities": "23.6.0-preview",
+    "UiPath.UIAutomation.Activities": "23.6.1-preview"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.6.1.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
